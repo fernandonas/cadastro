@@ -1,0 +1,105 @@
+.container {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulo {
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 25px;
+    background-color: #FFC629;
+    border: 1px solid #FFC629;
+    border-radius: 8px;
+    transform: rotate(-1deg);
+    margin-bottom: 5px;
+    box-shadow: 2px 2px 2px gray;
+}
+
+.conteudo {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    background-color: #fff;
+}
+
+.rodape {
+    display: flex;
+    background-color: #FFC629;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 25px;
+    border: 1px solid #FFC629;
+    transform: rotate(1deg);
+    margin-top: 5px;
+    border-radius: 8px;
+    color: #fff;
+    box-shadow: 2px 2px 2px gray;
+}
+
+.input {
+    height: 30px;
+    width: 392px;
+    border-radius: 8px;
+    border: none;
+    background-color: #cfcfcf;
+    outline: none;
+    letter-spacing: 2px;
+    box-shadow: 2px 2px 2px gray;
+    margin-bottom: 5px;
+}
+
+.submit {
+    width: 100%;
+    height: 30px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    color: #cfcfc0;
+    box-shadow: 2px 2px 2px gray;
+    letter-spacing: 3px;
+}
+
+.submit:hover {
+    cursor: pointer;
+}
+
+.submit:active {
+    transform: translate(2px, 2px);
+    box-shadow: none;
+}
+
+.tlista {
+    display: flex;
+    width: 400px;
+    margin-top: 20px;
+    background-color: brown;
+    height: 25px;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    z-index: 50;
+    letter-spacing: 5px;
+    box-shadow: 2px 2px 2px gray;
+    text-shadow: 2px 2px 2px black;
+}
+
+.nomes {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid brown;
+    border-radius: 8px;
+    transform: translateY(-15px);
+    padding: 20px 10px 0px 10px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
